@@ -1,0 +1,325 @@
+/* GERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*CONTAINER*/
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5f2fe;
+}
+
+.container {
+  background: #202020;
+  border-radius: 50px;
+  width: 1439px;
+  height: 926px;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row;
+}
+
+/* MENU */
+
+.menu {
+  margin-left: 50px;
+}
+
+.logo img {
+  box-sizing: content-box;
+  background: #f6f0d8;
+  width: 28px;
+  height: 31px;
+  padding: 30px;
+  border-radius: 23px;
+  margin: 33px 0 132px -30px;
+}
+
+ul li {
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+ul li:last-child {
+  margin-top: 208px;
+}
+
+ul li img {
+  width: 24px;
+  height: 22.2px;
+}
+
+/* TITULO */
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0, 02em;
+  color: #000;
+  margin: 36px 0 28px 0;
+}
+
+.info h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27.5px;
+  color: #000;
+  margin: 0 0 14px 0;
+}
+
+/* CARDS */
+
+.info {
+  height: 99%;
+  width: 90%;
+  margin: 5px auto;
+  border-radius: 50px;
+  background: #fefefe;
+  padding: 68px;
+  padding: 0 60px 0 68px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  width: 20%;
+  height: 450px;
+  border-radius: 7px;
+  margin-right: 10px;
+  display: flex;
+  flex: 1 3 194px;
+  height: 244px;
+  border-radius: 24px;
+  padding: 36px 0 0 30px;
+}
+
+.card:first-child {
+  flex: 2 2 486px;
+  background: #e5f2fe url("../Img/SVG's/bg-graffic.svg") no-repeat center bottom;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:nth-child(2) {
+  background: #e5def0;
+}
+.card:nth-child(3) {
+  background: #d6edda;
+}
+.card:nth-child(4) {
+  background: #f6f0d8;
+}
+
+.card div h1 {
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card div p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.card div p:first-child {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* IMAGEM CARD */
+
+.moeda {
+  margin-top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.moeda img {
+  background: #fff;
+  width: 56px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+.moeda p {
+  margin: 13px 0 0 36px;
+}
+
+.titulos {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SEGUNDA PARTE DA TABELA */
+
+.market {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 61px;
+}
+
+.primeira-parte {
+  width: 65%;
+  margin-right: 32px;
+}
+
+.campo-selecao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.campo-selecao h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+}
+
+#hora,
+#ganhos {
+  font-size: 16px;
+  line-height: 24px;
+  border: #eff2f4 solid 1px;
+  border-radius: 22px;
+  padding: 10px 19px;
+  margin-right: 16px;
+}
+
+.tabela {
+  display: flex;
+}
+
+.titulosTabela {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  letter-spacing: 0.02em;
+  color: #8290a0;
+  margin-top: 29px;
+}
+
+.nomes div {
+  display: flex;
+}
+
+.separacao {
+  margin-top: 20px;
+}
+
+.separacao div {
+  display: flex;
+  flex-direction: column;
+}
+
+.nomes div img {
+  background: #000;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  margin-right: 15px;
+  border-radius: 14px;
+}
+
+.infoName h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  margin-bottom: 3px;
+}
+
+.infoName span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #74899a;
+}
+
+.price,
+.chanee,
+.cap,
+.watch {
+  margin-left: 77px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.chanee {
+  color: #4ba582;
+}
+
+.cap {
+  text-align: right;
+}
+
+.numeros p {
+  margin-bottom: 46px;
+}
+
+.numeros p:first-child {
+  margin-top: 34px;
+}
+
+.watch img:first-child {
+  margin-top: 34px;
+}
+
+.blackBox {
+  color: #fff;
+  background: #222222 url("../Img/SVG's/linhas.svg") no-repeat bottom right;
+  border-radius: 30px;
+  width: 35%;
+  height: 363px;
+  padding: 60px 41px 67px 35px;
+}
+
+.blackBox h1 {
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  margin-bottom: 11px;
+  font-weight: 600;
+}
+
+.blackBox p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 35px;
+}
+
+.blackBox button {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  background: #bcdfff;
+  border-radius: 23px;
+  padding: 10px 40px 12px 34px;
+}
